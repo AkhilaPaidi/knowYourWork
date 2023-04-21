@@ -1,0 +1,86 @@
+
+.main-container {
+    background-color: #f9a3ab;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    color: #152F78;
+    font-family: "Roboto";
+
+}
+
+.side-bar {
+    border-right: 4px solid #3d2956;
+}
+
+.sidebar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.line {
+    border-bottom: 4px solid #3d2956;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icon-circle {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: 3px solid #3d2956;
+    margin: 10px;
+
+}
+
+.name {
+    color: #152F78;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.icon-container {
+    height: 60px;
+    width: 60px;
+}
+
+.interest-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.interest-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    background-color: #000066;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 2px;
+    padding: 3px;
+}
+
+i {
+    height: 60px;
+    width: 60px;
+}
